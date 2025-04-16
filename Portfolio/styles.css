@@ -39,6 +39,7 @@ nav>a{
 p{
     font-family: Arial;
     text-align: left;
+    font-size: larger;
    
 }
 
@@ -166,6 +167,10 @@ footer img{
     text-align:center;
     text-decoration: none;
     margin: auto;
+}
+.about{
+   font-size: larger;
+   justify-content: right;
 }
 
 }
