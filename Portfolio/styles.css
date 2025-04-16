@@ -28,19 +28,18 @@ nav>a{
 .Work h1{
     font-family: arial Bold;
     text-align: center;
-    
-   
 }
 .Hello{
     display: flex;
     align-items:flex-start;
+    
 }
    
 
 p{
     font-family: Arial;
     text-align: left;
-    padding: 1rem;
+   
 }
 
 .Work img{
@@ -53,11 +52,120 @@ p{
 
 
 .button{
-    font-family: arial;
-    font-size: 1rem;
+    font-family: arial ;
+    font-size: .9rem;
+    font-weight: 800;
     padding: 1rem;
     border-radius: 2rem;
+    color: black;
+    background-color: azure;
     border: 3px solid black;
-    margin: 2rem ;
     display: block;
+    text-align:center;
+    text-decoration: none;
+}
+.bottom-paragraph{
+    width: 25rem;
+    max-width: 70%;
+    padding: 1rem;
+    margin: auto;
+    display: block;
+}
+.first-paragraph{
+    display: none;
+}
+footer{
+    display: none;
+}
+
+
+@media (min-width: 1000px)
+{
+    nav{
+        text-align: right;
+        text-decoration: none;
+       
+    } 
+    header{
+        
+            background-color: #F8F3D9;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        
+
+    } 
+
+
+.Hello {
+    width: 50rem;
+    max-width: 80%;
+    padding: 1rem;
+    margin: auto;
+    padding-top: 5rem;
+    
+    
+}
+.Work h1{
+    text-align: left;
+    display: block;
+    font-size: 3rem;
+}
+.first-paragraph{
+   display: block;
+    text-align: left;
+    display: block;
+}
+.bottom-paragraph{
+    display: none;
+}
+.Work {
+    padding-top: 4rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+}
+.Work img{
+    width: 80rem;
+    max-width: 70%;
+   
+}
+.Work>div{
+    width: 70%;
+}
+footer{
+    padding-top: 5rem;
+    display: grid;
+    text-align: center;
+    background-color: #F8F3D9;
+}
+.chat{
+    text-align: center;
+}
+footer img{
+    max-width: 5%;
+    padding: 2rem;
+}
+.socials{
+   text-align: right;
+}
+.button{
+    width: 10rem;
+}
+.touch{
+    font-family: arial ;
+    font-size: .9rem;
+    font-weight: 800;
+    padding: 1rem;
+    border-radius: 2rem;
+    width: 10rem;
+    color: black;
+    background-color: azure;
+    border: 3px solid black;
+    display: block;
+    text-align:center;
+    text-decoration: none;
+    margin: auto;
+}
+
 }
